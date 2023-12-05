@@ -3,8 +3,8 @@
 body {
     margin: 0;
     font-family: 'Azeret Mono', monospace;
-font-family: 'Reem Kufi Fun', sans-serif;
-font-family: 'Roboto', sans-serif;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 nav {
@@ -13,10 +13,11 @@ nav {
     align-items: center;
     background-color: #000002;
     padding: 10px;
+    flex-direction: column-reverse;
 }
 
 .logo-container img {
-    height: 150px; /* Set an appropriate height for your logo */
+    height: 290px; /* Set an appropriate height for your logo */
     width: auto; /* Allow the width to adjust proportionally */
 }
 

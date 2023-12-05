@@ -1,0 +1,18 @@
+body{
+    font-family: 'Azeret Mono', monospace;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact-container {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    padding: 20px;
+  }
+  
+  .contact-details {
+    margin-top: 20px;
+  }
+  
+  /* Add more styles as needed */
+  

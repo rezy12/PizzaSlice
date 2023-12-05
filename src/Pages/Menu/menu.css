@@ -1,0 +1,40 @@
+.menu-container {
+    padding: 20px;
+  }
+  
+  .menu-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .menu-section {
+    padding: 25px;
+    margin-top: 40px;
+    border: solid white 2px;
+    text-align: center;
+    margin: 30px;
+  }
+  
+  .menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .menu-item {
+    text-align: center;
+    text-align: center;
+    border: solid blue 2px;
+    height: auto;
+    width: auto;
+  }
+  
+  .menu-item img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+  }
+  
+  /* Add more styles as needed */
+  
