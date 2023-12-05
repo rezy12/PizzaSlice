@@ -1,0 +1,167 @@
+/* Container styling */
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    font-family: 'Azeret Mono', monospace;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  /* Container for page content with maximum width */
+  .container {
+    max-width: 1200px; /* Set your desired maximum width */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+    background-color: #fff; /* Set container background color */
+  }
+
+
+
+
+
+
+
+
+
+
+.section-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+    background-color: #000002;
+    
+  }
+
+  /* Box styling */
+  .box {
+    text-align: center;
+    padding: 10vw;
+    border-radius: 10px;
+    background-color: #000002;
+    border: #d7bfbf solid 2px;
+    margin-bottom: 105px; /* Set your box background color */
+  }
+
+  /* Image styling */
+  .box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; /* Make the image circular */
+  }
+
+  /* Header styling */
+  .box h2 {
+    margin-top: 10px;
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+  }
+
+  /* Button styling */
+  .box button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #000002; /* Set your button background color */
+    color: #ffffff; /* Set your button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+
+  /* Container styling */
+  .section-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000002; /* Set your background color */
+  }
+
+  /* Left Box styling */
+  .left-box {
+    flex: 1;
+    text-align: center;
+  }
+
+  /* Right Box styling */
+  .right-box {
+    flex: 1;
+    padding-left: 20px; /* Add some padding to separate the two boxes */
+  }
+
+  /* Image styling */
+  .left-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Add border-radius for rounded corners */
+  }
+
+  /* Header and paragraph styling */
+  .right-box h2 {
+    font-size: 2em;
+    color: #ffffff;
+  }
+
+  .right-box p {
+    font-size: 1.2em;
+    color: #ffffff; /* Set your text color */
+    
+  }
+
+  /* Price styling */
+  .price {
+    font-size: 1.5em;
+    color: #ffffff; /* Set your price color */
+  }
+
+  /*fin us site */
+  /* Style for the location section */
+
+  .find-us-title{
+    text-align: center;
+  }
+
+  .location-section {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text color */
+    padding: 40px;
+  }
+  
+  .location-section h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    display: flex;
+  }
+  
+  #location-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #search-button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Style for the search results */
+  #results {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #fff; /* White border for the results container */
+    border-radius: 5px;
+  }
+  

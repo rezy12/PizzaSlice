@@ -1,18 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100;1,300;1,400&family=Reem+Kufi+Fun:wght@600&family=Roboto&display=swap');
 body {
     margin: 0;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Azeret Mono', monospace;
+font-family: 'Reem Kufi Fun', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: #000002;
     padding: 10px;
 }
 
 .logo-container img {
-    height: 50px; /* Adjust the height of your logo */
+    height: 150px; /* Set an appropriate height for your logo */
+    width: auto; /* Allow the width to adjust proportionally */
 }
 
 .nav-links {
@@ -29,9 +34,35 @@ nav {
 .nav-links a {
     text-decoration: none;
     color: white;
-    position: relative;
+    font-size: 40px;
 }
 
 .nav-links a:hover {
     text-decoration: underline;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        align-items: flex-end;
+        position: absolute;
+        top: 60px; /* Adjust the top position as needed */
+        right: 0;
+        background-color: #000002;
+        width: 100%;
+        display: none;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 10px 0; /* Adjust the vertical spacing as needed */
+    }
+
+    .nav-links a {
+        padding: 10px;
+    }
 }

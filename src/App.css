@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100;1,300;1,400&family=Reem+Kufi+Fun:wght@600&family=Roboto&display=swap');
+
+body{
+    background-color: rgb(8 7 7);
+    font-family: 'Azeret Mono', monospace;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
